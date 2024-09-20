@@ -13,7 +13,6 @@ export default function TabLayout() {
       screenOptions={{
         tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
       }} 
-      initialRouteName='combat'
     >
       <Tabs.Screen
         name="combat"
